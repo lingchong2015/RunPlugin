@@ -4,7 +4,6 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 
 class Run implements Plugin<Project> {
-
     @Override
     void apply(Project target) {
         target.android.applicationVariants.all { variant ->
