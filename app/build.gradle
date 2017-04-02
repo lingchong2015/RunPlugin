@@ -1,0 +1,10 @@
+apply plugin: 'groovy'
+
+group = 'com.curry.stephen.run'
+version = '1.0'
+archivesBaseName = 'runPlugin'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
